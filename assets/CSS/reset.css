@@ -1,0 +1,36 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;600;700&family=Inter:wght@400;500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,500&family=Ysabeau+SC:wght@400;500&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    max-height: 100%;
+    min-height: 100%;
+    font-family: var(--fonte-padrao);
+    font-weight: 900;
+}
+
+:root{
+    background-color:hsla(65,3%,7%,1);
+    background-image:
+    radial-gradient(at 93% 41%, hsla(239,100%,34%,1) 0px, transparent 50%),
+    radial-gradient(at 14% 53%, hsla(217,97%,47%,1) 0px, transparent 50%),
+    radial-gradient(at 30% 19%, hsla(240,56%,42%,1) 0px, transparent 50%);
+    --fonte-padrao: 'Handjet', cursive;
+    --cor-padrao:rgb(165, 144, 144);
+    --cor-hover:#fff;
+    --imagem-fundo:url('../IMG/VISÃO.jpg');
+    --imagem-fundo2:url('../IMG/CAPITA\ MARVEL.jpg');
+    --imagem-fundo3:url('../IMG/CAPITAO\ AMÉRICA.jpg');
+    --imagem-fundo4:url('../IMG/GAVIAO\ ARQUEIRO.jpg');
+    --imagem-fundo5:url('../IMG/guardioes\ da\ galaxia.jpg');
+    --imagem-fundo6:url('../IMG/homem\ aranha.jpg');
+    --imagem-fundo7:url('../IMG/homem\ de\ ferro.jpg');
+    --imagem-fundo8:url('../IMG/PANTERA\ NEGRA.jpg');
+    --imagem-fundo9:url('../IMG/THOR.jpg');
+    --imagem-fundo10:url('../IMG/viuva.jpg');
+
+}
