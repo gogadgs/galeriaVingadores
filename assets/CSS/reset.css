@@ -34,3 +34,8 @@
     --imagem-fundo10:url('../IMG/viuva.jpg');
 
 }
+
+
+::-webkit-scrollbar-thumb{
+    background-color: aliceblue;
+}

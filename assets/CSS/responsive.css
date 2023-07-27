@@ -79,7 +79,7 @@ body main .conteudo-principal .caixa-geral [class^="cartao"].cartao-ativo:hover{
 }
 }
 
-@media screen and (min-width: 601px) and (max-width:846px){
+@media screen and (min-width: 601px) and (max-width:846px) and (orientation: landscape) {
     
 body main .conteudo-principal .caixa-geral .cartao:nth-child(1):hover{
     margin-left: 11rem !important;
@@ -88,7 +88,7 @@ body main .conteudo-principal .caixa-geral .cartao2:hover{
     margin-left: 11rem !important;
 }
 body main .conteudo-principal .caixa-geral .cartao10:hover{
-    margin-right: 18rem !important;
+    margin-right: 25rem !important;
 }
 body main .conteudo-principal .caixa-geral .cartao9:hover{
     margin-right: 18rem !important;
