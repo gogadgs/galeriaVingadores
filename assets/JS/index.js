@@ -2,7 +2,7 @@
 
 window.onload = ()=>{
     const audio = document.createElement("audio");
-    audio.src = "../../assets/MUSIC/AVENGERS2.mp3";
+    audio.src = "https://github.com/gogadgs/galeriaVingadores/blob/main/assets/MUSIC/AVENGERS2.mp3";
     audio.loop=true;
     audio.autoplay=true;
    
