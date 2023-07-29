@@ -86,7 +86,7 @@ body main .conteudo-principal .caixa-geral [class^="cartao"].cartao-ativo:hover{
 }
 
 
-@media screen and (min-width: 601px) and (max-width:846px) and (orientation: landscape) {
+@media screen and (min-width: 601px) and (max-width:846px)  {
     
 body main .conteudo-principal .caixa-geral .cartao:nth-child(1):hover{
     margin-left: 11rem !important;
@@ -99,6 +99,15 @@ body main .conteudo-principal .caixa-geral .cartao10:hover{
 }
 body main .conteudo-principal .caixa-geral .cartao9:hover{
     margin-right: 18rem !important;
+}
+body main .conteudo-principal .caixa-geral [class^="cartao"]:nth-child(4).cartao-ativo:hover .elemento-sombreado{
+    box-shadow: 60px 5px 10px #eee;
+}
+body main .conteudo-principal .caixa-geral [class^="cartao"]:nth-child(3).cartao-ativo:hover .elemento-sombreado{
+    box-shadow: 120px 5px 10px #eee;
+}
+body main .conteudo-principal .caixa-geral [class^="cartao"]:nth-child(2).cartao-ativo:hover .elemento-sombreado{
+    box-shadow: 120px 5px 10px #eee;
 }
 }
 
