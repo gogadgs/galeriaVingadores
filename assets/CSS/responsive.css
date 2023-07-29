@@ -5,79 +5,86 @@
 body main .conteudo-principal{
     display: grid !important;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(1,560px);
+    grid-template-rows: repeat(1,850px);
 }
+
 body main .conteudo-principal .caixa-geral{
     display: grid !important;
     grid-template-columns: repeat(1,280px);
-    grid-template-rows: repeat(9,62px) 153px;
+    grid-template-rows: repeat(9,62px) 442px;
     place-items: center;
 }
 body main .conteudo-principal .caixa-geral .cartao{
     min-width: 225px !important;
-    min-height:300px !important;
-    top:10px !important;
+    
+   margin: 0!important;
     position:absolute !important;
 }
 body main .conteudo-principal .caixa-geral .cartao2{
     min-width: 225px !important;
-    min-height:300px !important;
-    top:40px !important;
+   
+    top:50px !important;
     position:absolute !important;
 }
 body main .conteudo-principal .caixa-geral .cartao3{
     min-width: 225px !important;
-    min-height:300px !important;
-    top:70px !important;
+    
+    top:115px !important;
     position:absolute !important;
 }
 body main .conteudo-principal .caixa-geral .cartao4{
     min-width: 225px !important;
     min-height:300px !important;
-    top:100px !important;
+    top:180px !important;
     position:absolute !important;
 }
 body main .conteudo-principal .caixa-geral .cartao5{
     min-width: 225px !important;
     min-height:300px !important;
-    top:130px !important;
+    top:240px !important;
     position:absolute !important;
 }
 body main .conteudo-principal .caixa-geral .cartao6{
     min-width: 225px !important;
-    min-height:300px !important;
-    top:160px !important;
+   
+    top:300px !important;
     position:absolute !important;
 }
 body main .conteudo-principal .caixa-geral .cartao7{
     min-width: 225px !important;
-    min-height:300px !important;
-    top:190px !important;
+   
+    top:360px !important;
     position:absolute !important;
 }
 body main .conteudo-principal .caixa-geral .cartao8{
     min-width: 225px !important;
-    min-height:300px !important;
-    top:210px !important;
+    
+    top:420px !important;
     position:absolute !important;
 }
 body main .conteudo-principal .caixa-geral .cartao9{
     min-width: 225px !important;
     min-height:300px !important;
-    top:240px !important;
+    top:480px !important;
     position:absolute !important;
 }
 body main .conteudo-principal .caixa-geral .cartao10{
     min-width: 225px !important;
     min-height:300px !important;
-    top:270px !important;
+    top:540px !important;
     position:absolute !important;
 }
+body main .conteudo-principal .caixa-geral [class^="cartao"].cartao-ativo .elemento-sombreado{
+    box-shadow: none !important;
+}
+
 body main .conteudo-principal .caixa-geral [class^="cartao"].cartao-ativo:hover{
     min-width: 600px !important;
     z-index: 1;
+   
 }
 }
+
 
 @media screen and (min-width: 601px) and (max-width:846px) and (orientation: landscape) {
     

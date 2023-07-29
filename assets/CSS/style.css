@@ -237,7 +237,30 @@ body main .conteudo-principal .caixa-geral [class^="cartao"].cartao-ativo:hover{
     -moz-border-radius:60px;
     -ms-border-radius:60px;
     -o-border-radius:60px;
+   
 }
+
+body main .conteudo-principal .caixa-geral [class^="cartao"].cartao-ativo .elemento-sombreado{
+    
+  width: 10px;
+  height: 100px;
+  
+  box-shadow: 5px 5px 10px #eee7e7;
+}
+body main .conteudo-principal .caixa-geral [class^="cartao"]:nth-child(1).cartao-ativo .elemento-sombreado{
+    
+    width: 10px;
+    height: 100px;
+   
+    position: absolute;
+    left: 100%; /* Posiciona o elemento no centro da tela */
+    margin-left: -50px; /* Define um valor negativo igual à metade da largura para centralizar */
+    box-shadow: -5px 5px 10px #eee7e7;
+  }
+  
+  
+  
+
 
 .caixa-geral .cartao-ativo:not(:hover) {
     filter: grayscale(100%);
